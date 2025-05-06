@@ -1,0 +1,22 @@
+set Browary:= Haarlem Eindhoven;
+set Hurtownie:= Amsterdam Breda Gouda Amersfoort DenBosch;
+
+
+param TygodniowaProdukcjaBrowarow:=
+Haarlem 47.23
+Eindhoven 63.5;
+
+param ZapotrzebowanieHurtowni:=
+Amsterdam    28
+Breda        16
+Gouda        22
+Amersfoort   31
+DenBosch     12;
+
+
+param KosztyTransportu: # tysiace EURO na Hl
+
+                  Amsterdam Breda  Gouda   Amersfoort  DenBosch:=
+       Haarlem      131.5    405   188.5      396        485
+       Eindhoven    554      351   479        366        155.6;
+ 

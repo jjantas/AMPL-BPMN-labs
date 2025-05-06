@@ -1,0 +1,23 @@
+set TOWARY := PRETY KATOWNIKI CEOWNIKI;
+
+param TonNaGodzine:=
+
+PRETY       200
+KATOWNIKI   140
+CEOWNIKI    120;
+
+param Cena:=
+
+PRETY       33
+KATOWNIKI   13
+CEOWNIKI    56;
+
+
+param MaxTon:=
+
+PRETY       4000
+KATOWNIKI   3000
+CEOWNIKI    2500;
+
+
+param CzasDostepny:= 40;

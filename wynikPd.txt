@@ -1,0 +1,16 @@
+zysk = 266500
+
+Godziny [*] :=
+ CEOWNIKI  20.8333
+KATOWNIKI   0
+    PRETY  19.1667
+;
+
+zysk = 266500
+
+Godziny[j]*TonNaGodzine[j] [*] :=
+ CEOWNIKI  2500
+KATOWNIKI     0
+    PRETY  3833.33
+;
+
